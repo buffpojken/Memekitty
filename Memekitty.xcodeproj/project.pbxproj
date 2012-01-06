@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E70CA3C14B7B8DE0089751E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70CA3B14B7B8DE0089751E /* Cocoa.framework */; };
+		4E70CA4614B7B8DE0089751E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA4414B7B8DE0089751E /* InfoPlist.strings */; };
+		4E70CA4914B7B8DE0089751E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70CA4814B7B8DE0089751E /* main.m */; };
+		4E70CA4C14B7B8DE0089751E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA4A14B7B8DE0089751E /* Credits.rtf */; };
+		4E70CA4F14B7B8DE0089751E /* MemekittyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70CA4E14B7B8DE0089751E /* MemekittyAppDelegate.m */; };
+		4E70CA5214B7B8DF0089751E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA5014B7B8DF0089751E /* MainMenu.xib */; };
+		4E70CA5914B7B8DF0089751E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70CA3B14B7B8DE0089751E /* Cocoa.framework */; };
+		4E70CA6114B7B8DF0089751E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA5F14B7B8DF0089751E /* InfoPlist.strings */; };
+		4E70CA6414B7B8DF0089751E /* MemekittyTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA6314B7B8DF0089751E /* MemekittyTests.h */; };
+		4E70CA6614B7B8DF0089751E /* MemekittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70CA6514B7B8DF0089751E /* MemekittyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E70CA5A14B7B8DF0089751E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E70CA2E14B7B8DE0089751E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E70CA3614B7B8DE0089751E;
+			remoteInfo = Memekitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E70CA3714B7B8DE0089751E /* Memekitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memekitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E70CA3B14B7B8DE0089751E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E70CA3E14B7B8DE0089751E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4E70CA3F14B7B8DE0089751E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E70CA4014B7B8DE0089751E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E70CA4314B7B8DE0089751E /* Memekitty-Info.plist */ = {isa = PBXFileReference; path = "Memekitty-Info.plist"; sourceTree = "<group>"; };
+		4E70CA4514B7B8DE0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E70CA4714B7B8DE0089751E /* Memekitty-Prefix.pch */ = {isa = PBXFileReference; path = "Memekitty-Prefix.pch"; sourceTree = "<group>"; };
+		4E70CA4814B7B8DE0089751E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E70CA4B14B7B8DE0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4E70CA4D14B7B8DE0089751E /* MemekittyAppDelegate.h */ = {isa = PBXFileReference; path = MemekittyAppDelegate.h; sourceTree = "<group>"; };
+		4E70CA4E14B7B8DE0089751E /* MemekittyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemekittyAppDelegate.m; sourceTree = "<group>"; };
+		4E70CA5114B7B8DF0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4E70CA5814B7B8DF0089751E /* MemekittyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemekittyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E70CA5E14B7B8DF0089751E /* MemekittyTests-Info.plist */ = {isa = PBXFileReference; path = "MemekittyTests-Info.plist"; sourceTree = "<group>"; };
+		4E70CA6014B7B8DF0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E70CA6214B7B8DF0089751E /* MemekittyTests-Prefix.pch */ = {isa = PBXFileReference; path = "MemekittyTests-Prefix.pch"; sourceTree = "<group>"; };
+		4E70CA6314B7B8DF0089751E /* MemekittyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemekittyTests.h; sourceTree = "<group>"; };
+		4E70CA6514B7B8DF0089751E /* MemekittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemekittyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E70CA3414B7B8DE0089751E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70CA3C14B7B8DE0089751E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70CA5414B7B8DF0089751E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70CA5914B7B8DF0089751E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E70CA2C14B7B8DE0089751E = {
+			isa = PBXGroup;
+			children = (
+				4E70CA4114B7B8DE0089751E /* Memekitty */,
+				4E70CA5C14B7B8DF0089751E /* MemekittyTests */,
+				4E70CA3A14B7B8DE0089751E /* Frameworks */,
+				4E70CA3814B7B8DE0089751E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E70CA3814B7B8DE0089751E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA3714B7B8DE0089751E /* Memekitty.app */,
+				4E70CA5814B7B8DF0089751E /* MemekittyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E70CA3A14B7B8DE0089751E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA3B14B7B8DE0089751E /* Cocoa.framework */,
+				4E70CA3D14B7B8DE0089751E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E70CA3D14B7B8DE0089751E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA3E14B7B8DE0089751E /* AppKit.framework */,
+				4E70CA3F14B7B8DE0089751E /* CoreData.framework */,
+				4E70CA4014B7B8DE0089751E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4E70CA4114B7B8DE0089751E /* Memekitty */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA4D14B7B8DE0089751E /* MemekittyAppDelegate.h */,
+				4E70CA4E14B7B8DE0089751E /* MemekittyAppDelegate.m */,
+				4E70CA5014B7B8DF0089751E /* MainMenu.xib */,
+				4E70CA4214B7B8DE0089751E /* Supporting Files */,
+			);
+			path = Memekitty;
+			sourceTree = "<group>";
+		};
+		4E70CA4214B7B8DE0089751E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA4314B7B8DE0089751E /* Memekitty-Info.plist */,
+				4E70CA4414B7B8DE0089751E /* InfoPlist.strings */,
+				4E70CA4714B7B8DE0089751E /* Memekitty-Prefix.pch */,
+				4E70CA4814B7B8DE0089751E /* main.m */,
+				4E70CA4A14B7B8DE0089751E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E70CA5C14B7B8DF0089751E /* MemekittyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA6314B7B8DF0089751E /* MemekittyTests.h */,
+				4E70CA6514B7B8DF0089751E /* MemekittyTests.m */,
+				4E70CA5D14B7B8DF0089751E /* Supporting Files */,
+			);
+			path = MemekittyTests;
+			sourceTree = "<group>";
+		};
+		4E70CA5D14B7B8DF0089751E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA5E14B7B8DF0089751E /* MemekittyTests-Info.plist */,
+				4E70CA5F14B7B8DF0089751E /* InfoPlist.strings */,
+				4E70CA6214B7B8DF0089751E /* MemekittyTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E70CA3614B7B8DE0089751E /* Memekitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E70CA6914B7B8DF0089751E /* Build configuration list for PBXNativeTarget "Memekitty" */;
+			buildPhases = (
+				4E70CA3314B7B8DE0089751E /* Sources */,
+				4E70CA3414B7B8DE0089751E /* Frameworks */,
+				4E70CA3514B7B8DE0089751E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memekitty;
+			productName = Memekitty;
+			productReference = 4E70CA3714B7B8DE0089751E /* Memekitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E70CA5714B7B8DF0089751E /* MemekittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E70CA6C14B7B8DF0089751E /* Build configuration list for PBXNativeTarget "MemekittyTests" */;
+			buildPhases = (
+				4E70CA5314B7B8DF0089751E /* Sources */,
+				4E70CA5414B7B8DF0089751E /* Frameworks */,
+				4E70CA5514B7B8DF0089751E /* Resources */,
+				4E70CA5614B7B8DF0089751E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E70CA5B14B7B8DF0089751E /* PBXTargetDependency */,
+			);
+			name = MemekittyTests;
+			productName = MemekittyTests;
+			productReference = 4E70CA5814B7B8DF0089751E /* MemekittyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E70CA2E14B7B8DE0089751E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E70CA3114B7B8DE0089751E /* Build configuration list for PBXProject "Memekitty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E70CA2C14B7B8DE0089751E;
+			productRefGroup = 4E70CA3814B7B8DE0089751E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E70CA3614B7B8DE0089751E /* Memekitty */,
+				4E70CA5714B7B8DF0089751E /* MemekittyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E70CA3514B7B8DE0089751E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70CA4614B7B8DE0089751E /* InfoPlist.strings in Resources */,
+				4E70CA4C14B7B8DE0089751E /* Credits.rtf in Resources */,
+				4E70CA5214B7B8DF0089751E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70CA5514B7B8DF0089751E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70CA6114B7B8DF0089751E /* InfoPlist.strings in Resources */,
+				4E70CA6414B7B8DF0089751E /* MemekittyTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E70CA5614B7B8DF0089751E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E70CA3314B7B8DE0089751E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70CA4914B7B8DE0089751E /* main.m in Sources */,
+				4E70CA4F14B7B8DE0089751E /* MemekittyAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E70CA5314B7B8DF0089751E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70CA6614B7B8DF0089751E /* MemekittyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E70CA5B14B7B8DF0089751E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E70CA3614B7B8DE0089751E /* Memekitty */;
+			targetProxy = 4E70CA5A14B7B8DF0089751E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E70CA4414B7B8DE0089751E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E70CA4514B7B8DE0089751E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E70CA4A14B7B8DE0089751E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E70CA4B14B7B8DE0089751E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4E70CA5014B7B8DF0089751E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E70CA5114B7B8DF0089751E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4E70CA5F14B7B8DF0089751E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E70CA6014B7B8DF0089751E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E70CA6714B7B8DF0089751E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E70CA6814B7B8DF0089751E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E70CA6A14B7B8DF0089751E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memekitty/Memekitty-Prefix.pch";
+				INFOPLIST_FILE = "Memekitty/Memekitty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E70CA6B14B7B8DF0089751E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memekitty/Memekitty-Prefix.pch";
+				INFOPLIST_FILE = "Memekitty/Memekitty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E70CA6D14B7B8DF0089751E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Memekitty.app/Contents/MacOS/Memekitty";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemekittyTests/MemekittyTests-Prefix.pch";
+				INFOPLIST_FILE = "MemekittyTests/MemekittyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E70CA6E14B7B8DF0089751E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Memekitty.app/Contents/MacOS/Memekitty";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemekittyTests/MemekittyTests-Prefix.pch";
+				INFOPLIST_FILE = "MemekittyTests/MemekittyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E70CA3114B7B8DE0089751E /* Build configuration list for PBXProject "Memekitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70CA6714B7B8DF0089751E /* Debug */,
+				4E70CA6814B7B8DF0089751E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E70CA6914B7B8DF0089751E /* Build configuration list for PBXNativeTarget "Memekitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70CA6A14B7B8DF0089751E /* Debug */,
+				4E70CA6B14B7B8DF0089751E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E70CA6C14B7B8DF0089751E /* Build configuration list for PBXNativeTarget "MemekittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70CA6D14B7B8DF0089751E /* Debug */,
+				4E70CA6E14B7B8DF0089751E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E70CA2E14B7B8DE0089751E /* Project object */;
+}

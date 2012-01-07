@@ -31,6 +31,10 @@
     [statusItem setHighlightMode:YES];
 }
 
+-(void)negerkung:(NSString*)kalle{
+    NSLog(@"%@",kalle);
+}
+
 -(IBAction)helloWorld:(id)sender{
     NSPasteboard *pb = [NSPasteboard generalPasteboard];
     [pb clearContents];

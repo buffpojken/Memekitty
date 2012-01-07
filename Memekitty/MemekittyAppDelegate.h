@@ -8,9 +8,18 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface MemekittyAppDelegate : NSObject <NSApplicationDelegate> {
+@interface MemekittyAppDelegate : NSObject <NSApplicationDelegate, NSCoding> {
+
+    NSMutableDictionary *currentImages; 
+
 @private
 }
+@property (retain, readwrite) NSMutableDictionary *currentImages; 
+
+- (NSString *) pathForDataFile;
+- (void) saveDataToDisk;
+- (void) loadDataFromDisk;
+- (NSMutableDictionary*)images;
 
 
 @end

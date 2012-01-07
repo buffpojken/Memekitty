@@ -44,9 +44,9 @@
 			<object class="NSWindowTemplate" id="1005">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{196, 240}, {252, 284}}</string>
+				<string key="NSWindowRect">{{196, 240}, {242, 298}}</string>
 				<int key="NSWTFlags">544735232</int>
-				<string key="NSWindowTitle">Window</string>
+				<string key="NSWindowTitle">Memekitty</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
@@ -70,7 +70,7 @@
 									<string>NeXT TIFF v4.0 pasteboard type</string>
 								</object>
 							</object>
-							<string key="NSFrame">{{12, 17}, {218, 220}}</string>
+							<string key="NSFrame">{{12, 11}, {218, 220}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
@@ -90,7 +90,7 @@
 						<object class="NSPopUpButton" id="750028342">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{76, 250}, {100, 26}}</string>
+							<string key="NSFrame">{{13, 251}, {216, 29}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="239533660"/>
@@ -201,7 +201,7 @@
 							</object>
 						</object>
 					</object>
-					<string key="NSFrameSize">{252, 284}</string>
+					<string key="NSFrameSize">{242, 298}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="750028342"/>
@@ -309,8 +309,8 @@
 						<reference key="object" ref="1006"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="750028342"/>
 							<reference ref="239533660"/>
+							<reference ref="750028342"/>
 						</object>
 						<reference key="parent" ref="1005"/>
 					</object>

@@ -24,5 +24,4 @@
 -(IBAction)imageDropped:(id)sender;
 -(IBAction)edit:(id)sender;
 
-
 @end

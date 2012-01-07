@@ -40,7 +40,11 @@
     NSMenuItem *itm = [popBtn selectedItem];
     [[[NSApplication sharedApplication].delegate images] setObject:[sender image] forKey:[itm title]];
     NSLog(@"%@", [[[NSApplication sharedApplication].delegate images] description]);
+   
+    
+    
 }
+
 
 -(IBAction)edit:(id)sender{
     NSWindowController *ctrl = [[NSWindowController alloc] initWithWindowNibName:@"EditWindow"];

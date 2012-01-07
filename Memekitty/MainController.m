@@ -53,7 +53,7 @@
 
     NSPasteboard *pb = [NSPasteboard generalPasteboard];
     [pb clearContents];
-    [pb writeObjects:[NSArray arrayWithObjects:[[[NSApplication sharedApplication].delegate images] objectForKey:[sender title]], @"bongo.jpg", nil]];   
+    [pb writeObjects:[NSArray arrayWithObjects:[[[NSApplication sharedApplication].delegate images] objectForKey:[sender title]], nil]];   
 }
 
 

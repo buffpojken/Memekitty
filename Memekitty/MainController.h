@@ -7,18 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CBEditableImageView.h"
 
+@interface MainController : NSObject <NSCoding> {
 
-@interface MainController : NSObject {
-
-    IBOutlet NSMenu *statusMenu; 
-    
-    NSStatusItem    *statusItem; 
-    NSImage         *statusImage; 
+    IBOutlet NSPopUpButton *popBtn;
+    IBOutlet NSImageView *imgView;
+    NSWindow *window;
+    NSMutableDictionary *currentImages; 
 
     
 }
+@property (strong) IBOutlet NSWindow *window;
+@property (strong) IBOutlet NSPopUpButton *popBtn;
+@property (strong) IBOutlet NSImageView *imgView;
+@property (retain) NSMutableDictionary *currentImages; 
 
 -(IBAction)helloWorld:(id)sender; 
+-(IBAction)selectImage:(id)sender;
+-(IBAction)imageDropped:(id)sender;
+-(IBAction)edit:(id)sender;
+- (NSString *) pathForDataFile;
+- (void) saveDataToDisk;
+- (void) loadDataFromDisk;
+
 
 @end

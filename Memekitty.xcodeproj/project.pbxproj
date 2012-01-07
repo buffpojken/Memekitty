@@ -17,6 +17,12 @@
 		4E70CA6114B7B8DF0089751E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA5F14B7B8DF0089751E /* InfoPlist.strings */; };
 		4E70CA6414B7B8DF0089751E /* MemekittyTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA6314B7B8DF0089751E /* MemekittyTests.h */; };
 		4E70CA6614B7B8DF0089751E /* MemekittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70CA6514B7B8DF0089751E /* MemekittyTests.m */; };
+		4E70CA7114B7BBF10089751E /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70CA7014B7BBF10089751E /* MainController.m */; };
+		4E70CA7514B7C2A80089751E /* cat-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA7414B7C2A80089751E /* cat-icon.png */; };
+		4E70CA7C14B7C6460089751E /* bild3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA7814B7C6460089751E /* bild3.jpeg */; };
+		4E70CA7D14B7C6460089751E /* bild2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA7914B7C6460089751E /* bild2.jpeg */; };
+		4E70CA7E14B7C6460089751E /* bild4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA7A14B7C6460089751E /* bild4.jpeg */; };
+		4E70CA7F14B7C6460089751E /* bild.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA7B14B7C6460089751E /* bild.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +41,27 @@
 		4E70CA3E14B7B8DE0089751E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4E70CA3F14B7B8DE0089751E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4E70CA4014B7B8DE0089751E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4E70CA4314B7B8DE0089751E /* Memekitty-Info.plist */ = {isa = PBXFileReference; path = "Memekitty-Info.plist"; sourceTree = "<group>"; };
+		4E70CA4314B7B8DE0089751E /* Memekitty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memekitty-Info.plist"; sourceTree = "<group>"; };
 		4E70CA4514B7B8DE0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E70CA4714B7B8DE0089751E /* Memekitty-Prefix.pch */ = {isa = PBXFileReference; path = "Memekitty-Prefix.pch"; sourceTree = "<group>"; };
+		4E70CA4714B7B8DE0089751E /* Memekitty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memekitty-Prefix.pch"; sourceTree = "<group>"; };
 		4E70CA4814B7B8DE0089751E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E70CA4B14B7B8DE0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4E70CA4D14B7B8DE0089751E /* MemekittyAppDelegate.h */ = {isa = PBXFileReference; path = MemekittyAppDelegate.h; sourceTree = "<group>"; };
+		4E70CA4D14B7B8DE0089751E /* MemekittyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemekittyAppDelegate.h; sourceTree = "<group>"; };
 		4E70CA4E14B7B8DE0089751E /* MemekittyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemekittyAppDelegate.m; sourceTree = "<group>"; };
 		4E70CA5114B7B8DF0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4E70CA5814B7B8DF0089751E /* MemekittyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemekittyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E70CA5E14B7B8DF0089751E /* MemekittyTests-Info.plist */ = {isa = PBXFileReference; path = "MemekittyTests-Info.plist"; sourceTree = "<group>"; };
+		4E70CA5E14B7B8DF0089751E /* MemekittyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemekittyTests-Info.plist"; sourceTree = "<group>"; };
 		4E70CA6014B7B8DF0089751E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E70CA6214B7B8DF0089751E /* MemekittyTests-Prefix.pch */ = {isa = PBXFileReference; path = "MemekittyTests-Prefix.pch"; sourceTree = "<group>"; };
+		4E70CA6214B7B8DF0089751E /* MemekittyTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemekittyTests-Prefix.pch"; sourceTree = "<group>"; };
 		4E70CA6314B7B8DF0089751E /* MemekittyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemekittyTests.h; sourceTree = "<group>"; };
 		4E70CA6514B7B8DF0089751E /* MemekittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemekittyTests.m; sourceTree = "<group>"; };
+		4E70CA6F14B7BBF10089751E /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		4E70CA7014B7BBF10089751E /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		4E70CA7414B7C2A80089751E /* cat-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-icon.png"; sourceTree = "<group>"; };
+		4E70CA7814B7C6460089751E /* bild3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bild3.jpeg; sourceTree = "<group>"; };
+		4E70CA7914B7C6460089751E /* bild2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bild2.jpeg; sourceTree = "<group>"; };
+		4E70CA7A14B7C6460089751E /* bild4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bild4.jpeg; sourceTree = "<group>"; };
+		4E70CA7B14B7C6460089751E /* bild.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bild.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +125,13 @@
 		4E70CA4114B7B8DE0089751E /* Memekitty */ = {
 			isa = PBXGroup;
 			children = (
+				4E70CA7714B7C3A30089751E /* Resources */,
 				4E70CA4D14B7B8DE0089751E /* MemekittyAppDelegate.h */,
 				4E70CA4E14B7B8DE0089751E /* MemekittyAppDelegate.m */,
 				4E70CA5014B7B8DF0089751E /* MainMenu.xib */,
 				4E70CA4214B7B8DE0089751E /* Supporting Files */,
+				4E70CA6F14B7BBF10089751E /* MainController.h */,
+				4E70CA7014B7BBF10089751E /* MainController.m */,
 			);
 			path = Memekitty;
 			sourceTree = "<group>";
@@ -150,6 +166,18 @@
 				4E70CA6214B7B8DF0089751E /* MemekittyTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E70CA7714B7C3A30089751E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E70CA7814B7C6460089751E /* bild3.jpeg */,
+				4E70CA7914B7C6460089751E /* bild2.jpeg */,
+				4E70CA7A14B7C6460089751E /* bild4.jpeg */,
+				4E70CA7414B7C2A80089751E /* cat-icon.png */,
+				4E70CA7B14B7C6460089751E /* bild.jpeg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +250,11 @@
 				4E70CA4614B7B8DE0089751E /* InfoPlist.strings in Resources */,
 				4E70CA4C14B7B8DE0089751E /* Credits.rtf in Resources */,
 				4E70CA5214B7B8DF0089751E /* MainMenu.xib in Resources */,
+				4E70CA7514B7C2A80089751E /* cat-icon.png in Resources */,
+				4E70CA7C14B7C6460089751E /* bild3.jpeg in Resources */,
+				4E70CA7D14B7C6460089751E /* bild2.jpeg in Resources */,
+				4E70CA7E14B7C6460089751E /* bild4.jpeg in Resources */,
+				4E70CA7F14B7C6460089751E /* bild.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +292,7 @@
 			files = (
 				4E70CA4914B7B8DE0089751E /* main.m in Sources */,
 				4E70CA4F14B7B8DE0089751E /* MemekittyAppDelegate.m in Sources */,
+				4E70CA7114B7BBF10089751E /* MainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,5 +23,6 @@
 -(IBAction)selectImage:(id)sender;
 -(IBAction)imageDropped:(id)sender;
 -(IBAction)edit:(id)sender;
+- (void) uploadToImgur: (NSImage *) image;
 
 @end

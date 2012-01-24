@@ -8,6 +8,7 @@
 
 #import "MainController.h"
 #import "MemekittyAppDelegate.h"
+#import "JSONKit.h"
 
 @implementation MainController
 
@@ -40,9 +41,8 @@
     NSMenuItem *itm = [popBtn selectedItem];
     [[[NSApplication sharedApplication].delegate images] setObject:[sender image] forKey:[itm title]];
     NSLog(@"%@", [[[NSApplication sharedApplication].delegate images] description]);
-   
     
-    
+    [self uploadToImgur:[sender image]];
 }
 
 
@@ -54,10 +54,33 @@
 
 -(IBAction)pasteImage:(id)sender{
     NSLog(@"%@", [[[NSApplication sharedApplication].delegate images] description]);
-
     NSPasteboard *pb = [NSPasteboard generalPasteboard];
     [pb clearContents];
-    [pb writeObjects:[NSArray arrayWithObjects:[[[NSApplication sharedApplication].delegate images] objectForKey:[sender title]], nil]];   
+    [pb writeObjects:[NSArray arrayWithObjects:
+                      [[[[NSApplication sharedApplication].delegate images]objectForKey:[sender title]] name], 
+
+                      [[[NSApplication sharedApplication].delegate images]objectForKey:[sender title]], 
+                      
+                      nil]];   
+}
+
+- (void) uploadToImgur: (NSImage *) image
+{
+    NSURL *url = [NSURL URLWithString:@"http://api.imgur.com/2/upload.json?key=ddb8bf0b86f4f46a3063d65d631a8dca"];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    [request setHTTPMethod:@"POST"];
+    NSString *b64 = [[image TIFFRepresentation] base64EncodedString];
+    [request setHTTPBody:[b64 dataUsingEncoding:NSUTF8StringEncoding]];
+    
+    [NSURLConnection sendAsynchronousRequest:request 
+                                       queue:[NSOperationQueue currentQueue] 
+                           completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+                               NSString *returned = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                               JKDictionary *responseData = [[[data objectFromJSONData] upload] links];
+                               NSLog(@"%@", [responseData imgur_page]);
+                               [image setName:[responseData imgur_page]];
+                               [returned release];             
+                           }];
 }
 
 

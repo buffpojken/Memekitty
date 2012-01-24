@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4D66B414CF728600C19FDD /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D66B314CF728600C19FDD /* JSONKit.m */; };
+		4E4D66B814CF745000C19FDD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D66B714CF745000C19FDD /* NSData+Base64.m */; };
+		4E4D66BB14CF773200C19FDD /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D66BA14CF773200C19FDD /* LaunchAtLoginController.m */; };
 		4E5CED5A14B7D34C00A7DF4A /* EditWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E5CED5914B7D34C00A7DF4A /* EditWindow.xib */; };
 		4E70CA3C14B7B8DE0089751E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70CA3B14B7B8DE0089751E /* Cocoa.framework */; };
 		4E70CA4614B7B8DE0089751E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E70CA4414B7B8DE0089751E /* InfoPlist.strings */; };
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E4D66B214CF728600C19FDD /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4E4D66B314CF728600C19FDD /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4E4D66B614CF745000C19FDD /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		4E4D66B714CF745000C19FDD /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		4E4D66B914CF773200C19FDD /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		4E4D66BA14CF773200C19FDD /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
 		4E5CED5914B7D34C00A7DF4A /* EditWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditWindow.xib; sourceTree = "<group>"; };
 		4E70CA3714B7B8DE0089751E /* Memekitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memekitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E70CA3B14B7B8DE0089751E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -132,6 +141,12 @@
 			children = (
 				4E70CA7714B7C3A30089751E /* Resources */,
 				4E70CA4D14B7B8DE0089751E /* MemekittyAppDelegate.h */,
+				4E4D66B214CF728600C19FDD /* JSONKit.h */,
+				4E4D66B914CF773200C19FDD /* LaunchAtLoginController.h */,
+				4E4D66BA14CF773200C19FDD /* LaunchAtLoginController.m */,
+				4E4D66B314CF728600C19FDD /* JSONKit.m */,
+				4E4D66B614CF745000C19FDD /* NSData+Base64.h */,
+				4E4D66B714CF745000C19FDD /* NSData+Base64.m */,
 				4E70CA4E14B7B8DE0089751E /* MemekittyAppDelegate.m */,
 				4E70CA5014B7B8DF0089751E /* MainMenu.xib */,
 				4E70CA4214B7B8DE0089751E /* Supporting Files */,
@@ -306,6 +321,9 @@
 				4E70CA4F14B7B8DE0089751E /* MemekittyAppDelegate.m in Sources */,
 				4E70CA7114B7BBF10089751E /* MainController.m in Sources */,
 				4E9BC0CB14B878E900F8D16C /* MenuController.m in Sources */,
+				4E4D66B414CF728600C19FDD /* JSONKit.m in Sources */,
+				4E4D66B814CF745000C19FDD /* NSData+Base64.m in Sources */,
+				4E4D66BB14CF773200C19FDD /* LaunchAtLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +428,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Memekitty/Memekitty-Prefix.pch";
 				INFOPLIST_FILE = "Memekitty/Memekitty-Info.plist";
+				OTHER_LDFLAGS = "-lcrypto";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -426,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Memekitty/Memekitty-Prefix.pch";
 				INFOPLIST_FILE = "Memekitty/Memekitty-Info.plist";
+				OTHER_LDFLAGS = "-lcrypto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

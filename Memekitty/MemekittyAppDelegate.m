@@ -7,6 +7,7 @@
 //
 
 #import "MemekittyAppDelegate.h"
+#import "LaunchAtLoginController.h"
 
 @implementation MemekittyAppDelegate
 @synthesize currentImages;
@@ -15,10 +16,12 @@
 {
     // Insert code here to initialize your application
     [self loadDataFromDisk];
-    NSLog(@"ta");
     if(!self.currentImages){
         self.currentImages = [[NSMutableDictionary alloc] init];    
     }
+    LaunchAtLoginController *launchController = [[LaunchAtLoginController alloc] init];
+    [launchController setLaunchAtLogin:YES];
+    [launchController release];
 }
 
 - (id) initWithCoder: (NSCoder *)coder
